@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<h2 id="movie">热门电影</h2>
+		<ul class="uls">
+			<li>《神探夏洛克》</li>
+			<li>《匆匆那年》</li>
+			<li>《寻龙诀》</li>
+			<li>《港囧》</li>
+			<li>《蚁人》</li>
+		</ul>
+	</body>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#movie").css("background-color","red");
+			$(".uls").css("background-color","#ccc");
+			$("li").css("font-size","20px");
+			$("*").css("color","blue");
+			$("#movie,.uls").css("border","1px solid blank");
+		})
+	</script>
+</html>
